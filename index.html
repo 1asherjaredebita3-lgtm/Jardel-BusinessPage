@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#181e11">
+<title>Jardel Jardin | OGAWA Vertis North</title>
+<style>
+  * { box-sizing: border-box; }
+  :root { color-scheme: dark; --ink:#f8f8f6; --muted:#c6cebe; --leaf:#afd37d; --line:#78876466; }
+  body { margin:0; padding:clamp(0px, 4vw, 48px); color:var(--ink); background:radial-gradient(ellipse at top,#354526,#11160e 65%); font: 16px/1.5 system-ui,sans-serif; }
+  main { max-width:540px; margin:auto; overflow:hidden; border:1px solid var(--line); border-radius:24px; background:#181e11; }
+  header, footer { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:18px 24px; }
+  .brand { font: bold 24px Georgia,serif; display:flex; align-items:center; gap:8px; }
+  .brand svg { width:28px; height:28px; }
+  .eyebrow { color:var(--leaf); font-size:.68rem; font-weight:650; letter-spacing:.17em; text-transform:uppercase; }
+  header .eyebrow { text-align:right; }
+  .hero { position:relative; isolation:isolate; min-height:clamp(420px, 105vw, 560px); display:flex; flex-direction:column; justify-content:space-between; align-items:flex-start; padding:24px; }
+  .hero img, .hero::after { position:absolute; inset:0; width:100%; height:100%; z-index:-1; }
+  .hero img { object-fit:cover; object-position:48% top; }
+  .hero::after { content:""; background:linear-gradient(180deg,#13190f30,transparent 37%,#181e11 98%); }
+  .tag { padding:6px 11px; border:1px solid var(--line); background:#181e11db; border-radius:99px; }
+  h1,h2,p { margin:0; }
+  h1 { margin:10px 0; font:normal clamp(4rem, 13vw, 5.5rem)/.88 Georgia,serif; letter-spacing:-.05em; }
+  h1 em { display:block; color:var(--leaf); }
+  .branch, address, footer { color:var(--muted); }
+  .actions,.metrics,section { margin-inline:24px; }
+  .actions,.metrics { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+  a { color:inherit; text-underline-offset:4px; }
+  a:focus-visible { outline:2px solid var(--leaf); outline-offset:4px; }
+  .action { display:flex; align-items:center; justify-content:space-between; gap:6px; padding:12px; min-height:48px; border:1px solid var(--leaf); border-radius:10px; font-size:.86rem; font-weight:650; text-decoration:none; }
+  .primary { background:var(--leaf); color:#13190f; }
+  .action:hover { box-shadow:0 0 0 2px var(--line); }
+  .metrics { margin-top:24px; padding-block:18px; border-block:1px solid var(--line); text-align:center; color:var(--muted); font-size:.88rem; }
+  .metrics > div + div { border-left:1px solid var(--line); }
+  .metrics strong { display:block; color:var(--ink); font:2.5rem Georgia,serif; }
+  section { padding-block:24px; border-bottom:1px solid var(--line); }
+  h2 { margin-bottom:12px; font:1.8rem Georgia,serif; }
+  address { font-style:normal; margin-bottom:12px; }
+  .details { display:grid; }
+  .details a { display:block; overflow-wrap:anywhere; padding:10px 0; border-bottom:1px solid var(--line); text-decoration:none; }
+  .details a:last-child { border-bottom:0; }
+  .details a:hover { color:var(--leaf); }
+  .details span { display:block; }
+  footer { font-size:.75rem; }
+  @media(max-width:420px) { main { border-radius:0; border-inline:0; } }
+</style>
+</head>
+<body>
+<main id="top">
+  <header>
+    <div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13.5" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="21" cy="10" r="3" fill="currentColor"/><path d="M6 18c3 11 16 12 21 1" fill="none" stroke="#afd37d" stroke-width="2"/></svg>OGAWA</div>
+    <span class="eyebrow">Wellness showroom</span>
+  </header>
+  <div class="hero">
+    <img src="jardel.webp" alt="Jardel Jardin beside an OGAWA massage chair">
+    <span class="tag eyebrow">Feel the OGAWA difference</span>
+    <div>
+      <p class="eyebrow">Store Lead &amp; Supervisor</p>
+      <h1>Jardel <em>Jardin</em></h1>
+      <p class="branch">Ayala Malls Vertis North</p>
+    </div>
+  </div>
+  <div class="actions">
+    <a class="action primary" href="jardel-jardin.vcf" download>Save contact <span aria-hidden="true">↓</span></a>
+    <a class="action" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="metrics">
+    <div><strong>11</strong>Years in service</div>
+    <div><strong>500+</strong>Satisfied clients</div>
+  </div>
+  <section aria-labelledby="showroom-title">
+    <p class="eyebrow">01 · Showroom</p>
+    <h2 id="showroom-title">Visit OGAWA Vertis North</h2>
+    <address>R1-L2-006, Level 2, Ayala Malls Vertis North<br>EDSA cor. North Avenue, Bagong Pag-asa,<br>Quezon City, Philippines</address>
+    <a href="https://www.google.com/maps/place/OGAWA+Ayala+Vertis+North/@14.6517089,121.0354179,17z/data=!3m2!4b1!5s0x3397b702f845ec31:0x80a2cfb8d5bb8f55!4m6!3m5!1s0x3397b7f397f5670d:0x15ab1c09b6f28b71!8m2!3d14.6517089!4d121.0354179!16s%2Fg%2F11f9xxg5hg?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D">Get directions ↗</a>
+  </section>
+  <section id="contact" aria-labelledby="contact-title">
+    <p class="eyebrow">02 · Connect</p>
+    <h2 id="contact-title">Get in touch with Jardel</h2>
+    <div class="details">
+      <a href="tel:+639660428203"><span class="eyebrow">Mobile</span>0966-042-8203</a>
+      <a href="tel:+63279406403"><span class="eyebrow">Showroom telephone</span>(02) 7940-6403</a>
+      <a href="mailto:jardel.jardin@ogawaworld.net"><span class="eyebrow">Email</span>jardel.jardin@ogawaworld.net</a>
+      <a href="https://www.ogawaworld.net.ph/"><span class="eyebrow">Website</span>www.ogawaworld.net.ph ↗</a>
+    </div>
+  </section>
+  <footer><span>O-Healthcare Solution, Phil., Inc.</span><a href="#top">Back to top ↑</a></footer>
+</main>
+</body>
+</html>
